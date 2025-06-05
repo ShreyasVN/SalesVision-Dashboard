@@ -20,7 +20,7 @@ export function DataJoinCard() {
       <CardContent className="space-y-4">
         <div className="space-y-2">
           <Label htmlFor="table1">Table 1 / Dataset 1</Label>
-          <Select disabled>
+          <Select>
             <SelectTrigger id="table1">
               <SelectValue placeholder="Select Table/Dataset" />
             </SelectTrigger>
@@ -32,7 +32,7 @@ export function DataJoinCard() {
         </div>
         <div className="space-y-2">
           <Label htmlFor="key1">Primary Key (Table 1)</Label>
-          <Select disabled>
+          <Select>
             <SelectTrigger id="key1">
               <SelectValue placeholder="Select Key" />
             </SelectTrigger>
@@ -44,7 +44,7 @@ export function DataJoinCard() {
         </div>
         <div className="space-y-2">
           <Label htmlFor="table2">Table 2 / Dataset 2</Label>
-          <Select disabled>
+          <Select>
             <SelectTrigger id="table2">
               <SelectValue placeholder="Select Table/Dataset" />
             </SelectTrigger>
@@ -56,7 +56,7 @@ export function DataJoinCard() {
         </div>
         <div className="space-y-2">
           <Label htmlFor="key2">Foreign Key (Table 2)</Label>
-          <Select disabled>
+          <Select>
             <SelectTrigger id="key2">
               <SelectValue placeholder="Select Key" />
             </SelectTrigger>
@@ -68,7 +68,7 @@ export function DataJoinCard() {
         </div>
       </CardContent>
       <CardFooter>
-        <Button disabled className="w-full">
+        <Button className="w-full">
           <GitMerge className="mr-2 h-4 w-4" /> Perform Join (Coming Soon)
         </Button>
       </CardFooter>
